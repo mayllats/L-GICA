@@ -1,0 +1,75 @@
+DECLARAÇAO DE IMPOSTOS
+Digite os rendimentos bancarios:R$ 1200
+Digite os rendimentos de salarios ou servicos:R$ 20000
+Digite os outros rendimentos:R$ 1500
+Digite os serviços médicos pagos:R$ 400.00
+Digite os serviços educacionais pagos:R$ 2400
+-------------Total de impostos-----------
+Total de impostos sobre rendimentos bancarios:R$ 240
+Total de impostos sobre salários e serviços:R$ 3000
+Total de impostos sobre outros rendimentos:R$ 150
+Total de impostos:R$ 3390
+------------------------------------------
+Maximo a ser abatido:
+R$ 1017
+----------- Total de valores possiveis de abater ---------
+Servicos medicos:R$ 400
+Servicos educacionais:R$ 2400
+Total:R$ 2800
+--------------------------------------
+----------- Imposto Total -------------
+Imposto bruto:R$ 3390
+Abatimentos:R$ 1017
+Total:R$ 2373
+
+
+DECLARAÇAO DE IMPOSTOS
+Digite os rendimentos bancarios:R$ 2000
+Digite os rendimentos de salarios ou servicos:R$ 20000
+Digite os outros rendimentos:R$ 2000
+Digite os serviços médicos pagos:R$ 500.00
+Digite os serviços educacionais pagos:R$ 1000
+-------------Total de impostos-----------
+Total de impostos sobre rendimentos bancarios:R$ 200
+Total de impostos sobre salários e serviços:R$ 3000
+Total de impostos sobre outros rendimentos:R$ 200
+Total de impostos:R$ 3400
+------------------------------------------
+Maximo a ser abatido:
+R$ 1020
+----------- Total de valores possiveis de abater ---------
+Servicos medicos:R$ 500 
+Servicos educacionais:R$ 1000
+Total:R$ 1500
+--------------------------------------
+----------- Imposto Total -------------
+Imposto bruto:R$ 3400
+Abatimentos:R$ 1020
+Total:R$ 1900
+
+
+DECLARAÇAO DE IMPOSTOS
+Digite os rendimentos bancarios:R$ 5000
+Digite os rendimentos de salarios ou servicos:R$ 50000
+Digite os outros rendimentos:R$ 2000
+Digite os serviços médicos pagos:R$ 1000
+Digite os serviços educacionais pagos:R$ 1000
+-------------Total de impostos-----------
+Total de impostos sobre rendimentos bancarios:R$ 1000
+Total de impostos sobre salários e serviços:R$ 15000
+Total de impostos sobre outros rendimentos:R$ 200
+Total de impostos:R$ 16200
+------------------------------------------
+Maximo a ser abatido:
+R$ 4860
+----------- Total de valores possiveis de abater ---------
+Servicos medicos:R$ 1000 
+Servicos educacionais:R$ 1000 
+Total:R$ 2000
+--------------------------------------
+----------- Imposto Total -------------
+Imposto bruto:R$ 16200
+Abatimentos:R$ 4860
+Total:R$ 11340
+
+
