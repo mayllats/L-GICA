@@ -1,19 +1,19 @@
 <?php
 
-print "DECLARAÇÃO DE IMPOSTOS";
+print "DECLARAÃ‡ÃƒO DE IMPOSTOS";
 
-print "Digite os rendimentos bancários: R$";
+print "Digite os rendimentos bancÃ¡rios: R$";
 $rendbancarios = trim(fgets(STDIN));
-print "\nDigite os rendimentos de salários e serviços: R$";
+print "\nDigite os rendimentos de salÃ¡rios e serviÃ§os: R$";
 $rendsala = trim(fgets(STDIN));
 print "\nDigite os outros rendimentos: R$";
 $outrosrend = trim(fgets(STDIN));
-print "\nDigite os serviços médicos pagos: R$";
-$serviçosmedicos = trim(fgets(STDIN));
-print "\nDigite os serviços educacionais pagos: R$";
-$serviçoseduc = trim(fgets(STDIN));
+print "\nDigite os serviÃ§os mÃ©dicos pagos: R$";
+$serviÃ§osmedicos = trim(fgets(STDIN));
+print "\nDigite os serviÃ§os educacionais pagos: R$";
+$serviÃ§oseduc = trim(fgets(STDIN));
 
-$Trendbancarios  = ($rendbancarios * 0.2);
+$Trendbancarios  = $rendbancarios * 0.2;
 
 if ($rendsala <= 8000){
 	$Trendsala = 0;
@@ -23,29 +23,25 @@ if ($rendsala <= 8000){
 	$Trendsala = $rendsala * 0.3;
 }
 
-$Toutrosrend  = $outrosrend * 0.2 ;
+$Toutrosrend  = $outrosrend * 0.1 ;
 print "\n-------------Total de impostos-----------" ;
-print "\nTotal de impostos sobre rendimentos bancários: $Trendbancarios" ;
-print "\nTotal de impostos sobre sálarios e serviços: $Trendsala" ;
+print "\nTotal de impostos sobre rendimentos bancÃ¡rios: $Trendbancarios" ;
+print "\nTotal de impostos sobre sÃ¡larios e serviÃ§os: $Trendsala" ;
 print "\nTotal de impostos sobre outros rendimentos: $Toutrosrend" ;
 $totalrend = trim(fgets(STDIN));
 $totalrend = $Trendbancarios + $Trendsala + $Toutrosrend ;
 print "\nTotal de impostos : R$ $totalrend" ;
 
 print "\n-----------------------------------------" ;
-
-$maxabate = trim(fgets(STDIN));
 $maxabate =  $totalrend * 0.3 ;
-
-print "\n Máximo a ser abatido: $maxabate " ;
+print "\n MÃ¡ximo a ser abatido: $maxabate " ;
 
 print "\n\n----------- Total de valores possiveis de abater ---------";
 
-print "\n Servicos medicos: R$ $serviçosmedicos ";
-print "\n Servicos educacionais: R$ $serviçoseduc ";
+print "\n Servicos medicos: R$ $serviÃ§osmedicos ";
+print "\n Servicos educacionais: R$ $serviÃ§oseduc ";
 
-$totalabate = trim(fgets(STDIN));
-$totalabate = $serviçosmedicos + $serviçoseduc ;
+$totalabate = $serviÃ§osmedicos + $serviÃ§oseduc ;
 print "\n Total: R$ $totalabate " ;
 
 
@@ -56,9 +52,8 @@ print "\n Imposto Bruto: R$ $totalrend";
 if ($totalabate < $maxabate) {print "\n Abatimentos: R$ $totalabate" ;}
 else {print "\n Abatimentos: R$ $maxabate" ;}
 
-$totalg1 = trim(fgets(STDIN));
+
 $totalg1 = $totalrend - $totalabate;
-$totalg2 = trim(fgets(STDIN));
 $totalg2 = $totalrend - $maxabate;
 
 if ($totalabate < $maxabate) { print "\n Total: R$ $totalg1 " ;}
